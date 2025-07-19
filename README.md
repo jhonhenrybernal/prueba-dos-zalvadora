@@ -9,7 +9,7 @@ Arquitectura DDD. Documentada automáticamente con Scramble.
 
 1. **Clonar el repositorio**
     ```bash
-    git clone https://github.com/tu-usuario/tu-repo.git
+    git clone https://github.com/jhonhenrybernal/prueba-dos-zalvadora
     cd tu-repo
     ```
 
@@ -53,7 +53,7 @@ Arquitectura DDD. Documentada automáticamente con Scramble.
 
 ## Documentación automática
 
-- [http://localhost/docs/api](http://localhost/docs/api)  
+- [http://localhost:8021/docs/api](http://localhost:8021/docs/api)  
   Documentación interactiva generada con **Scramble**.
 
 ## Tests

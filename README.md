@@ -13,20 +13,30 @@ Arquitectura DDD. Documentada automáticamente con Scramble.
     cd tu-repo
     ```
 
-2. **Copiar `.env` y configurar variables**
+2. **Si cuenta con Ws2**
+    ```bash
+    # Entra en tu distro Ubuntu
+    wsl -d Ubuntu
+    ```
+
+2. **Instalar dependencias Composer**
+    ```bash
+    composer install
+    ```
+ - Ejecuta esto si no logra:
+   ```bash
+    docker run --rm -v $(pwd):/app -w /app laravelsail/php83-composer:latest composer install
+    ```
+3. **Copiar `.env` y configurar variables**
     ```bash
     cp .env.example .env
     ```
 
-3. **Levantar los servicios con Sail**
+4. **Levantar los servicios con Sail**
     ```bash
     ./vendor/bin/sail up -d
     ```
 
-4. **Instalar dependencias Composer**
-    ```bash
-    ./vendor/bin/sail composer install
-    ```
 
 5. **Generar clave de la app**
     ```bash
@@ -55,7 +65,6 @@ Arquitectura DDD. Documentada automáticamente con Scramble.
 
 - [http://localhost:8021/docs/api](http://localhost:8021/docs/api)  
   Documentación interactiva generada con **Scramble**.
-
 
 ### Colección en Postman
 

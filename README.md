@@ -56,6 +56,14 @@ Arquitectura DDD. Documentada automáticamente con Scramble.
 - [http://localhost:8021/docs/api](http://localhost:8021/docs/api)  
   Documentación interactiva generada con **Scramble**.
 
+
+### Colección en Postman
+
+1. **Descarga el archivo**  
+   [Descargar Prueba Salvadora dos.postman_collection.json](./Prueba%20Salvadora%20dos.postman_collection.json)  
+   (o descárgalo directamente desde este repositorio).
+
+
 ## Tests
 
 - Ejecuta los tests con Pest:
